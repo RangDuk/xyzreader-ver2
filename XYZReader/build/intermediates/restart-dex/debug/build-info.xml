@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="23"
+    density="xxxhdpi"
+    format="7"
+    timestamp="463142424830304"
+    token="-4321545025013289680" >
+
+    <task
+        name="javac"
+        duration="1137" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="104" />
+    <task
+        name="verifier"
+        duration="24" />
+
+    <artifact
+        location="C:\Users\Gabe\Desktop\App Projects\xyzreader-ver2\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+        type="DEX" />
+
+    <build timestamp="462835925623778" >
+        <artifact
+            location="C:\Users\Gabe\Desktop\App Projects\xyzreader-ver2\XYZReader\build\outputs\apk\XYZReader-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="463142424830304" >
+        <artifact
+            location="C:\Users\Gabe\Desktop\App Projects\xyzreader-ver2\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>
