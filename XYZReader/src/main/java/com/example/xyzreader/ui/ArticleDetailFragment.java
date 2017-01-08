@@ -296,20 +296,4 @@ public class ArticleDetailFragment extends Fragment implements
                     }
                 });
     }
-
-    public ImageView getSharedElementImageView() {
-        if (isViewInBounds(getActivity().getWindow().getDecorView(), mPhotoView)) {
-            return mPhotoView;
-        }
-        return null;
-    }
-
-    /**
-     * Returns true if {@param view} is contained within {@param container}'s bounds.
-     */
-    private static boolean isViewInBounds(@NonNull View container, @NonNull View view) {
-        Rect containerBounds = new Rect();
-        container.getHitRect(containerBounds);
-        return view.getLocalVisibleRect(containerBounds);
-    }
 }
