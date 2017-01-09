@@ -4,52 +4,35 @@
     api-level="23"
     density="xxxhdpi"
     format="7"
-    timestamp="518134845385552"
+    timestamp="607613503851484"
     token="-4321545025013289680" >
 
     <task
         name="javac"
-        duration="327" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="58" />
+        duration="0" />
     <task
         name="verifier"
-        duration="10" />
+        duration="0" />
 
     <artifact
         location="C:\Users\Gabe\Desktop\App Projects\xyzreader-ver2\XYZReader\build\intermediates\res\resources-debug.ap_"
         type="RESOURCES" />
-    <artifact
-        location="C:\Users\Gabe\Desktop\App Projects\xyzreader-ver2\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
-        type="DEX" />
 
-    <build timestamp="514468187898902" >
+    <build timestamp="606702389047612" >
         <artifact
             location="C:\Users\Gabe\Desktop\App Projects\xyzreader-ver2\XYZReader\build\outputs\apk\XYZReader-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="516966911947620" >
-        <artifact
-            location="C:\Users\Gabe\Desktop\App Projects\xyzreader-ver2\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Gabe\Desktop\App Projects\xyzreader-ver2\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\Gabe\Desktop\App Projects\xyzreader-ver2\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
-            type="DEX" />
-    </build>
-    <build timestamp="518134845385552" >
+    <build timestamp="607613503851484" >
         <artifact
             location="C:\Users\Gabe\Desktop\App Projects\xyzreader-ver2\XYZReader\build\intermediates\res\resources-debug.ap_"
             type="RESOURCES" />
-        <artifact
-            location="C:\Users\Gabe\Desktop\App Projects\xyzreader-ver2\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>
